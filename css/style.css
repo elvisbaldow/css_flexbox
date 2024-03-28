@@ -4,14 +4,14 @@
     font-family: "Roboto", sans-serif;
 }
 
-ul{
+header ul{
     list-style: none;
     margin: 0;
     padding: 0;
 
 }
 
-ul li a{
+header ul li a{
     text-decoration: none;
     padding-right: 25px;
 }
@@ -55,6 +55,8 @@ header h1{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
 
 .text-brand{
     min-height: 200px;
@@ -103,4 +105,140 @@ header h1{
 .about p{
     margin-top: 15px;
     font-size: 18px;
+}
+
+.service{
+    background-color: rgb(18,42,87);
+    width: 992px;
+    height: 640px;
+
+}
+
+.service h2{
+    color: whitesmoke;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px;
+}
+
+.pack-service{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.venda{
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+.venda button{
+    margin-top: 15px;
+    background-color: whitesmoke;
+    color: rgb(18,42,87);
+    width: 125px;
+    height: 40px;
+    border-radius: 50px;
+    border: 0;
+    font-weight: 700;
+}
+
+
+.box-planos{
+    width: 992px;
+    height: 400px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-planos .titulo{
+    text-align: left;
+    width: 650px;
+}
+
+.planos{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    width: 650px;
+    
+
+}
+
+.planos .box{
+    border: solid 4px rgb(18,42,87);
+    padding: 25px;
+
+}
+.planos .plano1{
+    height: 170px;
+
+}
+
+.planos hr{
+    border: 1px solid rgb(18,42,87);
+
+}
+
+.planos .plano2{
+    height: 220px;
+}
+
+.planos .plano3{
+    height: 250px;
+}
+
+.planos ul{
+    color: rgb(18,42,87);
+    text-decoration: none;
+    list-style:square; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 15px;
+    
+}
+
+.planos button{
+    background-color: rgb(18,42,87);
+    color: whitesmoke;
+    width: 120px;
+    height: 30px;
+    border-radius: 50px;
+    border: 0;
+
+}
+
+footer{
+    color: white;
+    font-size: 12px;
+    background-color: rgb(18,42,87);
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .box-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 992px;
+
+}
+
+.box-footer .year{
+    margin: 15px 40px;
+}
+
+footer span{
+    font-weight: 700;
 }
